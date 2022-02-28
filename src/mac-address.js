@@ -15,8 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function isMAC48Address(n) {
-  //const template = /^([0-9A-F]{2}-){5}[0-9A-F]$/
-  const template = /[0-9A-F][0-9A-F]-[0-9A-F][0-9A-F]-[0-9A-F][0-9A-F]-[0-9A-F][0-9A-F]-[0-9A-F][0-9A-F]-[0-9A-F][0-9A-F]/
+  const template = /^([0-9A-F]{2}-){5}[0-9A-F]{2}$/
   return template.test(n)
 }
 module.exports = {
