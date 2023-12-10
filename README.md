@@ -2,6 +2,38 @@
 
 ⚠️ DO NOT SUBMIT PULL REQUESTS TO THIS REPO ⚠️
 
+---
+
+#### Prerequisites
+1. Install [Node.js](https://nodejs.org/en/download/)   
+2. Fork this repository: https://github.com/AlreadyBored/basic-js
+3. Clone your newly created repo: https://github.com/<%your_github_username%>/basic-js/  
+4. Go to folder `basic-js`  
+5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
+6. Run `npm run test` in command line.
+7. You will see the number of pending, passing and failing tests. 100% of passing tests is equal to max score for the task
+
+---
+
+#### Troubleshooting
+- If you catch error like [this](https://user-images.githubusercontent.com/17920285/158375305-f54d87fa-6f42-402f-af25-10b233d98cf9.png) you can try to make `npm install -g node-gyp`
+
+---
+
+#### Submit to [rs app](https://app.rs.school)
+1. Open [rs app](https://app.rs.school) and login
+2. Go to submit task page
+3. Select your task (BasicJS)
+4. Press the submit button and enjoy
+
+---
+
+#### Notes
+1. We recommend you to use Node.js of version 16.x.x LTS. If you use any of features, that does not supported by Node.js v16, there may be problems with task submit.
+2. Please, be sure that each of your tests is limited to 30 sec.
+
+---
+
 ## General task description
 Your task is to write several functions that are the solution to the subtasks. Subtasks descriptions, as well as instructions on how to run tests and submit solutions are below.
 
@@ -151,8 +183,8 @@ Your task is to implement the function `transform(arr)` that takes an `array` an
 **Control sequences** are defined `string` elements of the mentioned `array`:
 * `--discard-next` excludes the next element of the array from the transformed array.
 * `--discard-prev` excludes the previous element of the array from the transformed array.
-* `--double-next` doubles the next element of the array in the transformed array.
-* `--double-prev` doubles the previous element of the array in the transformed array.
+* `--double-next` duplicates the next element of the array in the transformed array.
+* `--double-prev` duplicates the previous element of the array in the transformed array.
 
 For example:
 
@@ -215,7 +247,7 @@ Write your code in `src/recursive-depth.js`.
 ---
 ### **Extended repeater**
 
-![Extended repater](https://farm5.staticflickr.com/4683/39024400961_732f449b65.jpg)  
+![Extended repater](https://upload.wikimedia.org/wikipedia/commons/4/4b/Macaws_at_Jurong_Bird_Park_-Singapore-8.jpg)  
 Your task is to implement the function `repeater(str, options)`.
 This function returns a repeating `string` based on the given parameters:
 * `str` is a `string` to repeat;
@@ -343,9 +375,9 @@ Write your code in `src/get-email-domain.js`.
 
 ---
 
-### **(ST) Is MAC-48 Adress?**
+### **(ST) Is MAC-48 Address?**
 The **MAC-48 address** is six groups of two hexadecimal digits (0 to 9 or A to F) separated by hyphens.
-Your task is to implement function that accepts **string** (`inputString`) and returns `true` if **string** is valid **MAC-48 adress**.  
+Your task is to implement function that accepts **string** (`inputString`) and returns `true` if **string** is valid **MAC-48 address**.  
 
 For example:
 
@@ -376,8 +408,6 @@ Write your code in `src/matrix-elements-sum.js`.
 
 ### **(ST) Minesweeper**
 In the popular Minesweeper game you have a board with some mines and cells that have a **number** in it that indicates the total **number of mines** in the neighboring cells. Starting off with some arrangement of mines we want to create a Minesweeper game setup.
-
-For example:
 
 For example:
 
@@ -418,35 +448,11 @@ For example:
 
 For 100, the result should be 1 (1 + 0 + 0 = 1)  
 `getSumOfDigits(100)` => `1`
+
 For 91, the result should be 1 (9 + 1 = 10, 1 + 0 = 1)  
 `getSumOfDigits(91)` => `1`
 
 Write your code in `src/sum-digits.js`.
-
----
-
-#### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
-2. Fork this repository: https://github.com/AlreadyBored/basic-js
-3. Clone your newly created repo: https://github.com/<%your_github_username%>/basic-js/  
-4. Go to folder `basic-js`  
-5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
-6. Run `npm run test` in command line.
-7. You will see the number of pending, passing and failing tests. 100% of passing tests is equal to max score for the task
-
----
-
-#### Submit to [rs app](https://app.rs.school)
-1. Open [rs app](https://app.rs.school) and login
-2. Go to submit task page
-3. Select your task (BasicJS)
-4. Press the submit button and enjoy
-
----
-
-#### Notes
-1. We recommend you to use Node.js of version 12.x.x LTS. If you use any of features, that does not supported by Node.js v12, there may be problems with task submit.
-2. Please, be sure that each of your tests is limited to 30 sec.
 
 ---
 
